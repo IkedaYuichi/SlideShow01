@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+main {
+  width: 832px;
+  margin: 0 auto;
+}
+
+header{
+  width: 832px;
+  margin: 0 auto;
+}
+
+h1{
+  font-weight: normal;
+  font-size: large;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  justify-content: end;
+  width: 80%;
+}
+
+button {
+  all: unset;
+  width: 124px;
+  color: #aaa;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.thumbnail{
+  cursor: pointer;
+  opacity: 1;
+  width: 20%;
+}
+
+.active{
+  opacity: 0.6;
+}
+
+#main-image{
+  width: 80%;
+}
